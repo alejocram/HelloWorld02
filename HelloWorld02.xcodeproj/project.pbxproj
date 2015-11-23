@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					599F5F761BF0EF78004072A5 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 97A6C3P4AZ;
 					};
 					599F5F8A1BF0EF79004072A5 = {
 						CreatedOnToolsVersion = 7.1;
@@ -399,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HelloWorld02/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.cursoswift.HelloWorld02;
@@ -410,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HelloWorld02/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nextu.cursoswift.HelloWorld02;
@@ -484,6 +487,7 @@
 				599F5FA11BF0EF7A004072A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		599F5FA21BF0EF7A004072A5 /* Build configuration list for PBXNativeTarget "HelloWorld02Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +496,7 @@
 				599F5FA41BF0EF7A004072A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		599F5FA51BF0EF7A004072A5 /* Build configuration list for PBXNativeTarget "HelloWorld02UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +505,7 @@
 				599F5FA71BF0EF7A004072A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

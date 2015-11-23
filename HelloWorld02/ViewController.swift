@@ -8,12 +8,13 @@
 
 import UIKit
 
-//Nuevo cambio
+//Clase del controlador
 class ViewController: UIViewController {
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var applyButton: UIButton!
     @IBOutlet weak var messageLabel: UILabel!
 
+    //Metodo inicial
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -24,6 +25,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    //Metodo para manejo de eventos
     @IBAction func changeMessage(sender: AnyObject) {
         messageLabel.text = nameTextField.text
         view.endEditing(true)
